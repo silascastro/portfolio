@@ -1,0 +1,50 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #1c1b1b;
+}
+
+#header{
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #339999;
+}
+
+#header ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#header ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#inner {
+   /* background-image: url('./images/hubble.jpeg') no-repeat;*/
+   padding: 10% 25%;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #147971; 
+}
+
+#inner h1{
+	font-size: 60px;
+}
+
+
+#inner img{
+	height: 80%;
+}
+
+#corpo {
+   margin: 10%;
+
+}
+
+#corpo #download{
+ border: 1px red;
+}
