@@ -16,6 +16,7 @@ body{
 #header ul li{
     display: inline-block;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 #header ul li a{
@@ -23,16 +24,25 @@ body{
 	color: white;
 }
 
+#header ul li a:hover{
+    border-bottom: 3px solid white;
+    transition: all 0.3s;
+    z-index: 999;
+    transform: scale(0);
+    cursor: pointer;
+}
+
 #inner {
    /* background-image: url('./images/hubble.jpeg') no-repeat;*/
-   padding: 10% 25%;
+   padding: 15% 25%;
    text-align: center;
    color: #FFFFFF;
    background-color: #147971; 
 }
 
 #inner h1{
-	font-size: 60px;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 
@@ -40,11 +50,116 @@ body{
 	height: 80%;
 }
 
-#corpo {
-   margin: 10%;
+#firstLine {
+   margin: 10% 2%;
+}
+
+#about{  
+    background-color: #ebeff3;
+    
+}
+
+#span {
+    background-color: #147971;
+    height: 3px;
+    width: 75px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#about h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#aboutTitle{
+    padding: 2% 20% 0;
+    text-align: center;
+}
+
+#aboutText{
+    padding: 0 20% 2%;
+    text-align: center;
+}
+
+#formSite{
+    background-color: #fafdfd;
+    margin: 0;
+    padding: 1%;
+    /*text-align: center;*/
+}
+
+
+
+#formTitle{
+    padding: 0 20% 0;
+    text-align: center;
+}
+
+#formText{
+    padding: 0 20% 2%;
+    text-align: center;
+}
+
+#formulario{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 5px;
 
 }
 
-#corpo #download{
- border: 1px red;
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
 }
+
+input[type=email]{
+    font-size: 16px;
+}
+
+input[type=text]{
+    font-size: 16px;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#footer {
+    background-color: #339999;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
