@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <title>Silas Castro</title>
     <script src="../js/index.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.10.1/js/all.js" data-auto-replace-svg></script>
 </head>
 <body>
     <header id="header">
@@ -39,6 +40,18 @@
         <p>Olá meu nome é Silas Castro. Trabalho há um ano e meio como <strong style="font-weight: 700">Desenvolvedor Full stack</strong>. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
         </p>
        </div>
+       <div id="habilities">
+           <div class="myHabilities">
+            <i class="fab fa-android" style="color: green;width:50px;"></i>
+            <p>Desenvolvimento mobile</p>
+           </div>
+           <div class="myHabilities">
+            <i class="fas fa-laptop-code" style="color: blue; width:50px;"></i>
+            <p>Desenvolvimento web</p>
+            <br>
+           </div>
+       </div>
+       
        <div id="formSite">
         <div id="formTitle">
             <h1>CONTACT ME</h1>

@@ -82,14 +82,39 @@ body{
     text-align: center;
 }
 
+#habilities{
+    /*width: 15%;*/
+    /*margin: 0 0 2% 20%;*/
+    padding: 0 20% 1%;
+    /*background-color: white;*/
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+#habilities svg{
+    font-size: 150px;
+}
+
+.myHabilities{
+    width: 20%;
+    height: 100%;
+    margin: 0 5%;
+    padding: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#habilities .myHabilities{
+    display: inline-block;
+}
+
 #formSite{
     background-color: #fafdfd;
     margin: 0;
     padding: 1%;
     /*text-align: center;*/
 }
-
-
 
 #formTitle{
     padding: 0 20% 0;
